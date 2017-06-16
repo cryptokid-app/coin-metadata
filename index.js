@@ -1,7 +1,6 @@
  
 const express     = require('express');
 const merge       = require('./src/merge').default;
-console.log(merge)
 
 const app = express();
 const bodyParser = require('body-parser')
